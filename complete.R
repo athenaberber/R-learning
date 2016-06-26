@@ -1,4 +1,4 @@
-complete<-function(directory,id=1:332){
+complete<-function(directory,id=1:300){
    dataname<-dir(directory)
    n<-length(id)
    # contruct a dataframe to store the result
